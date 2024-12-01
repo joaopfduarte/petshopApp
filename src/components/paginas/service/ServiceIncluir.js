@@ -1,12 +1,12 @@
 import {Link} from "react-router-dom";
-import PetForm from "./PetForm";
+import ServiceForm from "./ServiceForm";
 
 function ServiceIncluir(){
     return(
         <>
-            <Link to={"/"}>Home</Link> / <Link to={"/pet/list"}>Pet Lista</Link> / Pet Incluir
+            <Link to={"/"}>Home</Link> / <Link to={"/service/list"}>Lista de serviços</Link> / Pet Incluir
 
-            <h1>Pet Incluir:</h1>
+            <h1>Incluir serviço:</h1>
             <br/>
             <PetForm />
         </>
@@ -14,4 +14,4 @@ function ServiceIncluir(){
     );
 }
 
-export default PetIncluir;
+export default ServiceIncluir;
