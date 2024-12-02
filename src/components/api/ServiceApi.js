@@ -4,7 +4,7 @@ class ServiceApi extends BaseApi{
 
     getServicos(setData){
         const method = "GET";
-        const url = `${this.baseUrl}api/v1/servico`;
+        const url = `${this.baseUrl}api/v1/servico/`;
         console.log(url);
         super.myFetch(setData, method, url);
     }

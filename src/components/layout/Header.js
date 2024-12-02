@@ -11,7 +11,7 @@ function Header() {
                 <Navbar.Brand as={Link} to="/">Home</Navbar.Brand>
                 <Nav className="me-auto">
                     <Nav.Link as={Link} to="/pet/list">Pet</Nav.Link>
-                    <Nav.Link as={Link} to="/servico/list">Servico</Nav.Link>
+                    <Nav.Link as={Link} to="/service/list">Servico</Nav.Link>
                 </Nav>
                 </Container>
             </Navbar>
