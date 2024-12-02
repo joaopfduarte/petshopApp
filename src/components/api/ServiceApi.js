@@ -20,14 +20,14 @@ class ServiceApi extends BaseApi{
         const method = "POST";
         const url = `${this.baseUrl}api/v1/servico`;
         console.log(url);
-        super.myFetch({}, method, url, pet);
+        super.myFetch({}, method, url, service);
     }
 
     updateServico(service){
         const method = "PUT";
         const url = `${this.baseUrl}api/v1/servico`;
         console.log(url);
-        super.myFetch({}, method, url, pet);
+        super.myFetch({}, method, url, service);
     }
 
     deleteServico(id){
